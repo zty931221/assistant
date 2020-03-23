@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="color_b3b3b3">#b3b3b3</color>
+    <color name="im_list_select_hover">#dbdbdb</color>
+
+
+
+    <color name="transparent">#00000000</color>
+    <color name="grey">#333333</color>
+    <color name="global_bg">#9000</color>
+    <color name="color_green_01d9ae">#01D9AE</color>
+    <color name="color_blue_0888ff">#0888ff</color>
+    <color name="color_gray_d9d9d9">#d9d9d9</color>
+    <color name="action_bar_tittle_color_555555">#555555</color>
+    <color name="grey_white_has_alpha">#66FAFAFA</color>
+    <color name="color_network_bar_bg_ee4b62">#ee4b62</color>
+    <color name="color_black_333333">#333333</color>
+    <color name="color_grey_999999">#999999</color>
+    <color name="color_grey_888888">#888888</color>
+    <color name="color_grey_666666">#666666</color>
+    <color name="color_activity_blue_bg">#f7389fff</color>
+    <color name="split_line_grey_color_d9d9d9">#D9D9D9</color>
+    <color name="green_4DC0A4">#4DC0A4</color>
+    <color name="gray7">#c5c4c4</color>
+    <color name="GreyWhite">#F7F7F7</color>
+    <color name="color_aaaaaa_content_text">#ffaaaaaa</color>
+    <color name="title_color_01d9ae">#01D9AE</color>
+    <color name="color_green_disable">#a2efe0</color>
+    <color name="color_green_00d3a9">#ff00D3A9</color>
+    <color name="color_red_ccfa3c55">#ccfa3c55</color>
+    <color name="color_black_b3000000">#b3000000</color>
+    <color name="color_white_66ffffff">#66ffffff</color>
+    <color name="color_grey_eaeaea">#eaeaea</color>
+    <color name="color_yellow_fcf3cd">#fcf3cd</color>
+    <color name="color_blue_3a9efb">#3a9efb</color>
+    <color name="color_green_89fbff">#89fbff</color>
+
+    <!-- main bg color -->
+    <color name="g_child_page_bg_color">#FFFFFF</color>
+    <color name="main_bg_color">#FFFFFF</color>
+
+    <!-- session -->
+    <color name="color_message_default_bg">#e9ecf0</color>
+    <color name="input_panel_text_color_757572">#757572</color>
+    <color name="color_gray_cbd0d8">#cbd0d8</color>
+    <color name="help_color">#ff999999</color>
+
+    <!-- image picker -->
+    <color name="color_split_line_d9d9d9">#d9d9d9</color>
+    <color name="color_split_line_cccccc">#cccccc</color>
+
+    <!-- contact -->
+    <color name="contact_list_hover">#d9d9d9</color>
+    <color name="contact_letter_idx_bg">#33000000</color>
+    <color name="contacts_letters_color">#80807c</color>
+    <color name="color_background">#ECF1F5</color>
+    <color name="bussiness_card_gridview_bg">#ECF1F5</color>
+    <color name="press_mask">#33000000</color>
+    <color name="color_grey_ababab">#ababab</color>
+    <color name="color_yellow_796413">#796413</color>
+    <color name="color_yellow_b39729">#b39729</color>
+    <color name="color_red_f04c62">#f04c62</color>
+
+    <!-- setting -->
+    <color name="color_black_ff333333">#ff333333</color>
+    <color name="color_black_ff666666">#ff666666</color>
+    <color name="color_black_ff999999">#ff999999</color>
+    <color name="color_gray_bfc2c5">#bfc2c5</color>
+
+    <!-- qrcode scan -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="login_grey">#979797</color>
+    <color name="login_blue">#4a90e2</color>
+
+    <color name="color_c9c9c9">#C9C9C9</color>
+
+    <color name="cb2000000">#b2000000</color>
+    <color name="infoBlueColor">#2f70e1</color>
+    <color name="dangerColor">#e5000f</color>
+    <color name="login_bg">#f8f8fd</color>
+    <color name="login_explain">#373737</color>
+    <color name="coolGrayColor">#767a85</color>
+    <color name="push_grey">#60404040</color>
+
+    <color name="collect_back_blue">#4A90E2</color>
+    <color name="collect_back_grey">#c9c9c9</color>
+
+    <color name="left_ball_color">#7f01020a</color>
+    <color name="right_ball_color">#7f01020b</color>
+</resources>

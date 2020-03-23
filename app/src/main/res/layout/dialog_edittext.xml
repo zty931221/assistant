@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="35dp"
+            android:text="标题"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/color_activity_blue_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_activity_blue_bg" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:id="@+id/recycleviewLayout"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@id/edittext"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_history"
+                android:text="历史打卡记录"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_below="@+id/text_history"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_b3b3b3" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycleview"
+                android:layout_below="@+id/text_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_b3b3b3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel"
+            android:text="取消"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:background="@drawable/dialog_buton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"/>
+
+        <View
+            android:id="@+id/easy_dialog_btn_divide_view"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/color_b3b3b3"/>
+
+        <Button
+            android:id="@+id/confirm"
+            android:text="确定"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:background="@drawable/dialog_buton"
+            android:gravity="center"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"/>
+    </LinearLayout>
+
+</LinearLayout>

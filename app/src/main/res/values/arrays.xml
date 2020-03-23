@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="support_app_name">
+        <item>考勤系统</item>
+        <item>微信</item>
+    </string-array>
+
+    <string-array name="support_app_packagename">
+        <item>com.byd.moaais</item>
+        <item>com.tencent.mm</item>
+    </string-array>
+
+    <string-array name="delay_choise">
+        <item>关</item>
+        <item>1秒</item>
+        <item>1.5秒</item>
+        <item>2秒</item>
+        <item>2.5秒</item>
+        <item>3秒</item>
+    </string-array>
+</resources>

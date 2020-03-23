@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/status_bar_layout"
+        android:orientation="vertical"
+        android:background="@drawable/my_more_bar_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+        </LinearLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="46dp">
+
+            <RelativeLayout
+                android:id="@+id/back"
+                android:gravity="center"
+                android:layout_width="48dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/back"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/title"
+                android:text="微信"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/withPermissionLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/status_bar_layout">
+
+        <TextView
+            android:id="@+id/title1"
+            android:text="微信消息播报"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+<!--        <RelativeLayout-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/title_relativelayout1"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <TextView-->
+<!--                    android:text="按前后台播报"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+<!--                <com.zty.assistant.view.SwitchButton-->
+<!--                    android:id="@+id/front_back_switch"-->
+<!--                    android:layout_alignParentEnd="true"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+<!--            </RelativeLayout>-->
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/front_background_layout"-->
+<!--                android:layout_below="@+id/title_relativelayout1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/background_layout"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_marginTop="8dp"-->
+<!--                    android:layout_marginLeft="8dp"-->
+<!--                    android:layout_marginRight="8dp"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content">-->
+
+<!--                    <TextView-->
+<!--                        android:text="微信在后台时播报"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:layout_height="wrap_content"/>-->
+
+<!--                    <com.zty.assistant.view.SwitchButton-->
+<!--                        android:id="@+id/background_switch"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"/>-->
+
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/front_layout"-->
+<!--                    android:layout_below="@+id/background_layout"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_marginTop="8dp"-->
+<!--                    android:layout_marginLeft="8dp"-->
+<!--                    android:layout_marginRight="8dp"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content">-->
+
+<!--                    <TextView-->
+<!--                        android:text="微信在前台时播报"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:layout_height="wrap_content"/>-->
+
+<!--                    <com.zty.assistant.view.SwitchButton-->
+<!--                        android:id="@+id/front_switch"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"/>-->
+
+<!--                </LinearLayout>-->
+
+<!--            </RelativeLayout>-->
+
+<!--        </RelativeLayout>-->
+
+        <RelativeLayout
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/title_relativelayout2"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="按黑白名单播报"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <com.zty.assistant.view.SwitchButton
+                    android:id="@+id/black_white_list_switch"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/black_white_layout"
+                android:layout_below="@+id/title_relativelayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/out_of_black_layout"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="只播报黑名单外"
+                        android:textColor="@color/black"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.zty.assistant.view.SwitchButton
+                        android:id="@+id/out_of_black_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/in_white_list_layout"
+                    android:layout_below="@+id/out_of_black_layout"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="只播报白名单内"
+                        android:textColor="@color/black"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.zty.assistant.view.SwitchButton
+                        android:id="@+id/in_white_list_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/white_recycleview"
+                    android:visibility="gone"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_below="@+id/in_white_list_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/black_recycleview"
+                    android:visibility="gone"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_below="@+id/in_white_list_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/noPermissionLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/status_bar_layout">
+
+        <TextView
+            android:text="您没有授权，请授权后再使用本功能"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/permission_request"
+            android:text="点我申请授权"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:singleLine="true"
+            android:textColor="@color/color_activity_blue_bg"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
